@@ -14,7 +14,6 @@ const program = require('commander'),
  */
 const runSearch = function (string) {
     let command = 'man -wK ' + string;
-    console.log(command);
     exec(command, function (error, stdout, stderr) {
         if (error) {
             console.error(error);
