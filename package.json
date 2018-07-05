@@ -1,0 +1,26 @@
+{
+  "name": "mansearch",
+  "version": "0.0.1",
+  "description": "Search manual page mentions a specific person",
+  "author": "Harry Barnard",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "bin": {
+    "mansearch": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrybarnard/mansearch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harrybarnard/mansearch/issues"
+  },
+  "homepage": "https://github.com/harrybarnard/mansearch#readme",
+  "dependencies": {
+    "commander": "^2.16.0"
+  }
+}
